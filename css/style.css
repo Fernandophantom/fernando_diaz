@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "PollerOne-Regular" ;
+    src: url(../fuentes/PollerOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "sfuidisplay-Regular" ;
+    src: url(../fuentes/SFUIDisplay-Regular.otf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+h1 {
+    font-family: "PollerOne-Regular";
+    font-size: 48px;
+    margin-bottom: -120px;
+    line-height: 110%;
+    
+}
+
+h2 {
+    font-family: "PollerOne-Regular";
+    font-size: 32px;
+}
+
+h3 {
+    font-family: "PollerOne-Regular";
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+
+p {
+    font-family: "sfuidisplay-Regular";
+    font-size: 16px;
+   
+    line-height: 140%;
+    margin-top: 16px;
+}
+
+header {
+    margin-bottom: 40px;
+    padding-top: 62px;
+}
+body {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 32px∫;
+    font-family:"PollerOne-Regular";
+    font-size: 16px;
+    color: black;
+}
+
+a {
+    color: black;
+   text-decoration: none;
+    
+}
+.line{
+    width: 10px;
+    height: 100vh;
+    background-color: black;
+}
+
+.linea-horizontal{
+    width: 10px;
+    height: 24px;
+    background-color: black;
+    transform: rotate(90deg)
+}
+
+
+.info {
+    padding-left: 32px;
+}
+.box-header {
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    
+}
+
+.box-header-2 {
+   display: flex;
+   justify-content: space-between;
+   align-content: space-between;
+   flex-wrap: wrap;
+    width: 50%;
+    padding-right: 48px;
+  
+}
+
+
+
+.imagen {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 400px 400px 400px 0px;
+}
+.apartado {
+    margin-top: 96px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 32px;
+}
+
+
+
+.box-articulo {
+    width: 33%;
+}
+
+
+.box-articulo2{
+    width: 25%;
+  
+}
+
+.box-articulo2 h3 p {
+ margin-top: 16px;
+}
+
+.contenedor-flecha {
+    width: 100px;
+    height: 100px;
+    
+    margin-bottom: 72px;
+    position: relative;
+}
+
+.flecha {
+    animation: arrow 1s ease-in-out infinite;
+    position: absolute;
+}
+
+@keyframes arrow {
+    0% {
+        top: -20px;
+    }
+    20% {
+        top: -5px;
+    }
+    40% {
+        top: 5px;
+    }
+    60% {
+        top: 10px;
+    }
+    80% {
+        top: 15px;
+    }
+    100% {
+        top: 20px;
+    }
+    }
+    .contenido button {
+        border: 4px solid black;
+        padding: 0 10px;
+        background-color: white;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        font-family: "PollerOne-Regular";
+        height: 40px;
+        width: 100%;
+        color: #000000;
+        margin-top: 24px;
+        cursor: pointer;
+      }
+
+      .box-articulo2 p {
+          text-align: left;
+      }
+      
+      li a {
+   padding-bottom: 8px;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 4px;
+    transition: background-size .5s;
+}
+li a:hover, li a:focus {
+    background-size: 100% 4px;
+}
+
+.contenido button:hover {
+    background-color:black;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    height: 120px;
+    margin-top: 40px;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+
+.box-articulo3 {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ text-align: center;
+
+}
+
+
+.contenido2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 48px;
+}
+
+.contenido2 button {
+    border: 4px solid black;
+    padding: 0 10px;
+    background-color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    font-family: "PollerOne-Regular";
+    height: 40px;
+    width: 100%;
+    color: #000000;
+    margin-top: 24px;
+    cursor: pointer;
+  }
+
+  .contenido2 button:hover {
+    background-color:black;
+    color: white;
+}
+
+.ul-footer {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: px;
+    padding: 48px 32px 0px 32px;
+    font-family:"PollerOne-Regular";
+    font-size: 16px;
+   
+}
+
